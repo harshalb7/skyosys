@@ -40,11 +40,11 @@ function printData() {
 		}
 	}
 
-	/*document.getElementById('txtName').value = "";
+	document.getElementById('txtName').value = "";
 	document.getElementById('txtEmail').value = "";
 	document.getElementById('txtPhone').value = "" ;
 	document.getElementById('txtMsg').value = "" ;
-*/}
+}
 
 
 
