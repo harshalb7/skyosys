@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+/*body{
+	overflow: hidden;
+}*/
+
+
+.navbar{
+	font-size: 150%;
+}
+
+.container-fluid .navbar .navbar-brand{
+	font-family: 'Lato', sans-serif;
+  color:grey;
+  font-size: 180%;
+  padding-left: 30px;
+}
+
+.home{
+	background-color: #FC5A8D;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+
+.footer{
+	background-color: #000000;
+}
+
+.home, .about, .service, .contact{
+	padding: 60px 0;
+}
+
+.text-center{
+	padding-bottom: 30px;
+}
+
+.about-us{
+	font-size: 24px;
+}
+
+.service{
+	padding-bottom: 90px;
+	background-color: #FC5A8D;
+
+}
+.service .service-box{
+	box-shadow: 0px 0 30px ;
+	height: 90%;
+	padding: 60px 30px;
+	border-radius: 5px;
+	margin-right: 50px;
+	margin-left: 35px;
+	margin-bottom: 80px;	
+	background-color: #FFFFFF;
+}
+
+input{
+	line-height: 30px !important;
+}
+
+textarea{
+	width: 100%; 
+	height: 180px;
+}
