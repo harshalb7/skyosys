@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/469cfe67c5.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="game.css">
+	
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+
+	<header class="d-flex flex-column">
+		<div class="text-center">
+			<h1>
+				<span>ROCK</span>
+				<span>PAPER</span>
+				<span>SCISSORS</span>
+			</h1>
+			<button class="btn btn-primary btn-lg" id="restgame">Reset Game</button>
+		</div>
+		<div class="d-flex justify-content-around flex-wrap score-board">
+			<div class="score text-center">
+				<h4>Your Score</h4>
+				<p id='your-score'>0</p>
+			</div>
+			<div class="score text-center">
+				<h4>Computer Score</h4>
+				<p id="computer-score">0</p>
+			</div>
+		</div>
+	</header>
+
+
+
+	<main class="main" id="main1">
+		<button class="button-circle button-rock" >
+			<span id="rock" class="wrapper">
+				<img src="images/icon-rock.svg">
+			</span>
+		</button>
+
+		<button class="button-circle button-paper ">
+			<span  id="paper" class="wrapper">
+				<img src="images/icon-paper.svg">
+			</span>
+		</button>
+
+		<button class="button-circle button-scissors" >
+			<span id="scissors" class="wrapper">
+				<img src="images/icon-scissors.svg">
+			</span>
+		</button>
+	</main>
+
+
+	<div class="selection" id="selection1">
+		<div class="user-selection">
+			<h2 class="text-justify">You Picked</h2>
+			<button id="user_select" class="button-circle1 button-rock" >
+				<span class="wrapper">
+					<img src="images/icon-rock.svg">
+				</span>
+			</button>
+		</div>
+		<div class="result-section">
+			<h1><span id="result">You Win</span></h1>
+			<button id="reset" class="btn btn-primary mt-3">PLay again</button>
+		</div>
+
+		<div class="computer-selection">
+			<h2 class="text-justify">Computer Picked</h2>
+			<button id="computer_select" class="button-circle1 button-rock" >
+				<span class="wrapper">
+					<img src="images/icon-rock.svg">
+				</span>
+			</button>
+		</div>
+	</div>
+
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="game.js"></script>
+</body>
+</html>
